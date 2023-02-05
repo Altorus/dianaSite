@@ -28,4 +28,6 @@ $(document).ready(function () {
         }, 0);
     });
 
+    $("#preloader").fadeTo(3000,1).fadeOut(1000);
+
 })
