@@ -1,5 +1,6 @@
 $(document).ready(function () {
     new Swiper('.reviews-swiper', {
+        loop: true,
         slidesPerView: 1,
         spaceBetween: 80,
         autoplay: {delay: 2100},
@@ -10,6 +11,7 @@ $(document).ready(function () {
         }
     })
     new Swiper('.rez-swiper', {
+        loop: true,
         autoplay: {delay: 2000},
         slidesPerView: 1,
         spaceBetween: 20,
