@@ -8,6 +8,7 @@ $dark-orange: #FE5D02
 $orange: #F29F05
 $yellow: #F2CB05
 $light-green: #EBFF00
+$perple: #912BD9
 
 $radius: 24px
 
@@ -106,7 +107,7 @@ section.landing-section
 
 
 .title-color
-  color: $light-green
+  color: $perple
 
 h1
   font-family: $unbounded
@@ -120,17 +121,6 @@ h1
   position: relative
   z-index: 2
 
-.title-text:after
-  content: ''
-  position: absolute
-  width: 252px
-  height: 112px
-  background: $orange
-  bottom: 20px
-  right: 20px
-  border-radius: 176px/77px
-  transform: rotate(15deg)
-  z-index: -1
 
 .landing-img
   height: 10rem
@@ -151,24 +141,17 @@ h1
   text-transform: uppercase
   position: relative
   cursor: pointer
+  padding: 20px 40px
+  border-radius: 24px
+  background: $perple
+  box-shadow: 4px 4px 0px $white
 
-.landing-btn:after
-  content: ''
-  position: absolute
-  width: 252px
-  height: 112px
-  background: $dark-orange
-  top: 100%
-  left: 50%
-  border-radius: 176px/77px
-  transform: rotate(10deg) translate(-50%, -50%)
-  z-index: -1
-  transition: all .3s ease
-
-.landing-btn:hover:after
-  top: 50%
-  transform: rotate(0) translate(-50%, -50%)
-
+.btn-section
+  width: 100%
+  height: fit-content
+  display: flex
+  justify-content: center
+  margin-top: 2rem
 
 .about-section
   position: relative
@@ -383,6 +366,8 @@ h1
     top: 50%
     transform: translateY(-50%)
     left: 50%
+
+
 
 #preloader
   position: fixed

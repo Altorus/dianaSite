@@ -102,7 +102,7 @@ section.landing-section {
 }
 
 .title-color {
-  color: #EBFF00;
+  color: #912BD9;
 }
 
 h1 {
@@ -117,19 +117,6 @@ h1 {
 .title-text {
   position: relative;
   z-index: 2;
-}
-
-.title-text:after {
-  content: "";
-  position: absolute;
-  width: 252px;
-  height: 112px;
-  background: #F29F05;
-  bottom: 20px;
-  right: 20px;
-  border-radius: 176px/77px;
-  transform: rotate(15deg);
-  z-index: -1;
 }
 
 .landing-img {
@@ -153,25 +140,18 @@ h1 {
   text-transform: uppercase;
   position: relative;
   cursor: pointer;
+  padding: 20px 40px;
+  border-radius: 24px;
+  background: #912BD9;
+  box-shadow: 4px 4px 0px #F2F3F4;
 }
 
-.landing-btn:after {
-  content: "";
-  position: absolute;
-  width: 252px;
-  height: 112px;
-  background: #FE5D02;
-  top: 100%;
-  left: 50%;
-  border-radius: 176px/77px;
-  transform: rotate(10deg) translate(-50%, -50%);
-  z-index: -1;
-  transition: all 0.3s ease;
-}
-
-.landing-btn:hover:after {
-  top: 50%;
-  transform: rotate(0) translate(-50%, -50%);
+.btn-section {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
 .about-section {
